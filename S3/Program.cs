@@ -8,9 +8,9 @@
             Car C1;
             // 1. Allocate 4 Bytes in Stack => Null
 
-            C1 = new Car(10,"Audi",500); // empty paramterless constructor
+            //C1 = new Car(10,"Audi",500); // empty paramterless constructor
 
-
+            C1 = new Car(10,"BMW");
             Console.WriteLine(C1);
             //Console.WriteLine(C1.ToString);
 
