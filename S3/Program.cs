@@ -1,4 +1,6 @@
-﻿namespace S3
+﻿using System;
+using Common;
+namespace S3
 {
     internal class Program
     {
@@ -20,10 +22,18 @@
             //Console.WriteLine(parent.Product());
             //parent.MyFun();
 
-            Child child = new Child(10,20,30);
-            Console.WriteLine(child);
-            Console.WriteLine(child.Product());
-            child.MyFun();
+            //Child child = new Child(10,20,30);
+            //Console.WriteLine(child);
+            //Console.WriteLine(child.Product());
+            //child.MyFun();
+
+            TypeA typeD = new TypeD();
+            //typeD.A = 1;
+            //typeD.B = 2;
+            typeD.C = 3;
+            //typeD.X = 3;
+            //typeD.Y = 3;
+            //typeD.Z = 3;
 
         }
     }
